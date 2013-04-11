@@ -10,7 +10,7 @@ Let's say you want to find all [Literature](http://course-api.herokuapp.com/lit)
       `import urllib2`
 
 2.    Grab the data and store it in a variable.  
-      `request = urllib2.urlopen('http://course-api.herokuapp.com/econ')`
+      `request = urllib2.urlopen('http://course-api.herokuapp.com/lit')`
 
 3.    The request data is stored in a format called [JSON](http://en.wikipedia.org/wiki/JSON), but Python has a library which converts that JSON into a normal Python dict. Let's do that now!  
       `import json`  
