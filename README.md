@@ -21,7 +21,7 @@ Let's say you want to find all [Literature](http://course-api.herokuapp.com/lit)
 
 ### Routes
 
-You'll probably want the [master list](http://course-api.herokuapp.com/master) of all courses in all departments, so use the route: `http://course-api.herokuapp.com/master`<br>
+You'll probably want the [master list](http://course-api.herokuapp.com/all) of all courses in all departments, so use the route: `http://course-api.herokuapp.com/all`<br>
 
 And, like the Literature example above, you can access a specific department by requesting: `http://course-api.herokuapp.com/<dept_name_here>`<br>
 <br>
